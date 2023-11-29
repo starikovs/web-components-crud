@@ -1,0 +1,15 @@
+{
+  "name": "web-components-crud",
+  "version": "1.0.0",
+  "description": "CRUD implemented using web components",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --index './index.html' --files '**/*.html' '**/*.mjs'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
